@@ -1,0 +1,26 @@
+/* 解除容器限制 */
+
+.page-inner {
+    max-width: 95% !important;
+    min-height: 100vh !important;
+    /* 强制最小高度 */
+    overflow: visible !important;
+    /* 允许内容溢出 */
+}
+
+
+/* Mermaid 图表容器优化 */
+
+.mermaid {
+    min-height: 300px;
+    /* 设定最小渲染高度 */
+    margin: 20px 0;
+}
+
+
+/* SVG 画布自适应 */
+
+.mermaid svg {
+    width: 100% !important;
+    height: auto !important;
+}
